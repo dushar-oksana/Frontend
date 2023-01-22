@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отчет о покупках</title>
+    <style>
+        table, tr, td, th {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .lightblue-bg {
+            background: lightblue;
+        }
+
+        .lightgrey-bg {
+            background: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="lightblue-bg" rowspan="2">Дата покупки</th>
+                <th>Месяц</th>
+                <th>Январь</th>
+                <th>Февраль</th>
+                <th>Март</th>
+                <th>Апрель</th>
+                <th>Май</th>
+            </tr>
+            <tr>
+                <th>Год</th>
+                <th>2023</th>
+                <th>2021</th>
+                <th>2022</th>
+                <th>2020</th>
+                <th>2022</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td class="lightgrey-bg" colspan="2">Сумма, $</td>
+            <td>120</td>
+            <td>440</td>
+            <td>320</td>
+            <td>55.99</td>
+            <td>22.1</td>
+        </tbody>
+    </table>
+</body>
+</html>
