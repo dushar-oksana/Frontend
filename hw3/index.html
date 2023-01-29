@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css/reset.css">
+    <link rel="stylesheet" href="./styles.css/main.css">
+    <script src="https://kit.fontawesome.com/002b3c9bfc.js" crossorigin="anonymous"></script>
+    <title>Верстка flex-макета</title>
+</head>
+<body>
+    <header class="bg-aqua flex flex-justify--between header">
+        <img src="./img/logo.png" alt="Компания Icon. Логотип">
+        <nav class="flex gap-20 nav text-black">
+            <a class="text-black text-decoration--none" href="#about">О нас</a>
+            <a class="text-black text-decoration--none" href="#projects">Проекты</a>
+            <a class="text-black text-decoration--none" href="#contacts">Контакты</a>
+        </nav>
+        <div class="flex gap-20">
+            <a href="https://instagram.com" target="_blank"><img src="./img/insta.png" alt="Логотип Instagram"></a>
+    
+            <a href="https://instagram.com" target="_blank"><img src="./img/facebook.png" alt="Логотип Facebook"></a>
+        
+            <a href="https://instagram.com" target="_blank"><img src="./img/linkedin.png" alt="Логотип linkedin"></a>
+        </div>
+    </header>
+    <main>
+        <section class="flex flex-direction--row">
+            <img src="./img/office-image.png" alt="Нарисованное изображение офиса">
+            <div id="about" class="flex flex-direction--column about align-items--center text-align--center">
+                <h1 class="text-header text-align--center">О нас</h1>
+                <p class="text-align--center text-par--about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quaerat sed optio repellendus possimus esse voluptate dolor. Voluptates cum officiis, corporis voluptatum nobis quibusdam reiciendis consectetur repudiandae, maxime repellendus possimus.</p>
+            </div>
+        </section>
+        <section id="projects" class="projects bg-lightgreen">
+            <h2 class="text-header">Наши проекты</h2>
+            <div class="flex flex-direction--row flex-justify--between flex-wrap">
+                <article class="flex flex-direction--column project">
+                    <img src="./img/project-img.png" alt="Изображение здания">
+                    <div class="project-textblock">
+                        <h3 class="text-project--head text-white">Арена</h3>
+                        <p class="text-project--par text-white">Мы сделали самую красивую арену в Европе. 
+                        Это открытие стало для нас прорывной точкой 
+                        для разивтия на следующие десятилетия. 
+                        Мы очень рады данному еву.</p>
+                    </div>
+                </article>
+                <article class="flex flex-direction--column project">
+                    <img src="./img/project-img.png" alt="Изображение здания">
+                    <div class="project-textblock">
+                        <h3 class="text-project--head text-white">Арена</h3>
+                        <p class="text-project--par text-white">Мы сделали самую красивую арену в Европе. 
+                        Это открытие стало для нас прорывной точкой 
+                        для разивтия на следующие десятилетия. 
+                        Мы очень рады данному еву.</p>
+                    </div>
+                </article>
+                <article class="flex flex-direction--column project">
+                    <img src="./img/project-img.png" alt="Изображение здания">
+                    <div class="project-textblock">
+                        <h3 class="text-project--head text-white">Арена</h3>
+                        <p class="text-project--par text-white">Мы сделали самую красивую арену в Европе. 
+                        Это открытие стало для нас прорывной точкой 
+                        для разивтия на следующие десятилетия. 
+                        Мы очень рады данному еву.</p>
+                    </div>
+                </article>
+                <article class="flex flex-direction--column project">
+                    <img src="./img/project-img.png" alt="Изображение здания">
+                    <div class="project-textblock">
+                        <h3 class="text-project--head text-white">Арена</h3>
+                        <p class="text-project--par text-white">Мы сделали самую красивую арену в Европе. 
+                        Это открытие стало для нас прорывной точкой 
+                        для разивтия на следующие десятилетия. 
+                        Мы очень рады данному еву.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 id="contacts" class="text-header">Контакты</h2>
+        <section class="flex flex-justify--between">
+            <div class="flex flex-direction--column gap-25 align-items--center">
+                <i class="fa-solid fa-map-pin contacts-item--icon"></i>
+                <h4 class="contacts-item--text text-grey">АДРЕС:</h4>
+                <address class="contacts-item--text text-align--center text-decoration--none">
+                    НЕВСКИЙ ПРОСПЕКТ 140, <br>
+                    ОФИС 140-142
+                </address>
+            </div>
+            <div class="flex flex-direction--column gap-25 align-items--center">
+                <i class="fa-solid fa-phone-volume contacts-item--icon"></i>
+                <h4 class="contacts-item--text text-grey">ТЕЛЕФОН:</h4>
+                <div class="contacts-item--text">
+                    <a class="text-black text-decoration--none" href="tel:+78121112233">8 (812) 111-22-33</a>
+                    <br>
+                    <a class="text-black text-decoration--none" href="tel:+78121112233">8 (812) 111-22-33</a>
+                </div>
+            </div>
+            <div class="flex flex-direction--column gap-25 align-items--center">
+                <i class="fa-solid fa-clock contacts-item--icon"></i>
+                <h4 class="contacts-item--text text-grey">ВРЕМЯ РАБОТЫ:</h4>
+                <div class="contacts-item--text">
+                    <p class="text-align--center">
+                        ПН-СБ
+                    </p>
+                    <p class="text-align--center">
+                        <time>10:00</time>-<time>20:00</time>
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-direction--column gap-25 align-items--center">
+                <i class="fa-solid fa-envelope contacts-item--icon"></i>
+                <h4 class="contacts-item--text text-grey">E-MAIL:</h4>
+                <a class="contacts-item--text text-orange text-decoration--none" href="mailto:INFO@VIP.RU">INFO@VIP.RU</a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

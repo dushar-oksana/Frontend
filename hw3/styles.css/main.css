@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "Inter-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Inter-Regular"), 
+    url("../fonts/Inter-Regular.woff2") format("woff2"), 
+    url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Oswald-Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Oswald-Medium"), 
+    url("../fonts/Oswald-Medium.woff2") format("woff2"), 
+    url("../fonts/Oswald-Medium.woff") format("woff");
+}
+
+.bg-aqua {
+    background-color: #1ABC9C;
+}
+
+.bg-lightgreen {
+    background-color: #DCFFEB;
+}
+.text-black {
+    color: #000;
+}
+
+.text-grey {
+    color: #999999;
+}
+
+.text-orange {
+    color: #F7654A;
+}
+
+.text-white {
+    color: #FFF;
+}
+
+.text-decoration--none {
+    text-decoration: none;
+}
+
+.align-items--center {
+    align-items: center;
+    text-align: center;
+}
+
+.text-header {
+    font-size: 35px;
+    line-height: 42px;
+    font-family: "Inter-Regular", Times, serif;
+}
+
+.text-par--about {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Inter-Regular", Times, serif;
+    text-align: justify;
+}
+
+.text-project--head {
+    margin-left: 36px;
+    margin-top: 28px;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Oswald-Medium", Times, serif;
+}
+
+.text-project--par {
+    margin: 16px 36px 0px 36px;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans";
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.gap-37 {
+    gap: 37px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-justify--between {
+    justify-content: space-between;
+}
+
+.flex-direction--column {
+    flex-direction: column;
+}
+
+.flex-direction--row {
+    flex-direction: row;
+}
+
+.header {
+    width: 100%;
+    padding: 15px 70px;
+    align-items: center;
+}
+
+.nav {
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "Inter-Regular", Times, serif;
+}
+
+.header > img {
+    width: 101px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.about {
+    width: 100%;
+    margin-left: 62px;
+    margin-right: 70px;
+    justify-content: center;
+    
+}
+
+.about h1 {
+    margin-bottom: 23px;
+}
+
+.projects {
+    padding: 124px 64px;
+    width: 100%;
+}
+
+.project {
+    margin-top: 50px;
+    width: 30%;
+    position: relative;
+}
+
+.project img {
+    object-fit: contain;
+}
+
+.project-textblock {
+    background-color: rgba(0, 0, 0, 0.38);
+    position: absolute;
+    bottom: 2px;
+    z-index: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 84px 70px 76px;
+}
+
+.footer > h2 {
+    margin-bottom: 55px;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts-item--text {
+    font-size: 24px;
+    line-height: 35px;
+    font-family: "Oswald-Medium", Times, serif;
+}
+
+.contacts-item--icon {
+    color: #F7654A;
+    font-size: 48px;
+}
